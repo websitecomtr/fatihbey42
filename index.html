@@ -1,0 +1,380 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Fatih Korucu</title>
+
+
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+#container{
+    background: #F1F1F1;
+    width:100%;
+    height:140rem;
+}
+
+
+
+
+/*header AND intro BOX (START)*/
+
+#header_AND_intro_BOX{
+    display: grid;
+    width:100%;
+    height: 35rem;
+    grid-template-rows: 5rem 30rem;
+    grid-gap: 15rem;
+    
+}
+
+#header{
+    background: #E4E4E4;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 .2rem .2rem #C8C8C8;
+    position: sticky;
+}
+
+#fatih_krc_text{
+    line-height: 5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left:3.5%;
+    color: #5C5C5C;
+    user-select: none;
+}
+
+
+#icons{
+    line-height: 5rem;
+    font-size:2rem;
+    margin-right: 3.5%;
+
+    user-select: none;
+}
+
+#icons .youtube_icon{
+    margin-right: 1rem;
+}
+
+.youtube_icon:hover{
+    color: #C8C8C8;
+}
+
+
+#icons a{
+    color: #5C5C5C;
+}
+
+#icons a:hover{
+    color: gray;
+}
+
+#intro{
+    display: flex;
+    justify-content: center;
+}
+
+#intro img{
+    width:95%;
+    user-select:none;
+}
+
+
+
+
+/*header AND intro BOX (END) */
+
+
+
+
+/*social_media_BOX (START)*/
+
+
+#sosyal_medya_BOX_CONTAİNER{
+    display: flex;
+    justify-content: center;
+}
+
+#social_media_BOX{
+    display: grid;
+    width:90%;
+    height:50rem;
+    grid-template-rows: 25rem 25rem;
+    grid-gap:10rem;
+    position: absolute;
+    top:60rem;
+}
+
+
+#instagram_BOX{
+    background: #E4E4E4;
+    border: solid .1rem #FF0453;
+    border-radius: 1rem;
+    display: grid;
+    justify-content: center;
+}
+
+#instagram_icon2{
+    color: #FF0453;
+    font-size: 11rem;
+    margin-top:2.3rem;
+    display: flex;
+    justify-content: center;
+}
+
+#instagram_username{
+    font-size: 1.8rem;
+    margin-top: -1.2rem;
+    color: #FF0453;
+}
+
+#instagram_username::selection{
+    background: #FF0453;
+    color: white;
+    box-shadow: 0 0 .2rem #FF0453;
+    text-shadow: 0 0 .2rem white;
+}
+
+#instagram_button_container{
+    display: flex;
+    justify-content: center;
+}
+
+#instagram_link_buttona{
+    display: grid;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    width:13rem;
+    height:3rem;
+    background: #FF0453;
+    color: white;
+    border-radius: .5rem;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+
+    transition: .5s;
+}
+
+#instagram_link_buttona:hover{
+    box-shadow: 0 0 .4rem #FF0453;
+    text-shadow: 0 0 .2rem white;
+}
+
+
+#instagram_link_buttona a{
+    color: white;
+}
+
+#youtube_BOX{
+    background: #E4E4E4;
+    border: solid .1rem red;
+    border-radius: 1rem;
+    display: grid;
+    justify-content: center;
+
+}
+
+#youtube_icon2 {
+    color: red;
+    font-size: 11rem;
+    margin-top:2.3rem;
+    display: flex;
+    justify-content: center;
+}
+
+#youtube_username{
+    font-size: 1.8rem;
+    margin-top: -1.2rem;
+    color: red;
+}
+
+#youtube_username::selection{
+    background: red;
+    box-shadow: 0 0 .2rem red;
+    color:white;
+    text-shadow: 0 0 .2rem white;
+}
+
+#yt_button_container{
+    display: flex;
+    justify-content: center;
+}
+
+#youtube_link_buttona{
+    display: grid;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    width:13rem;
+    height:3rem;
+    background: rgb(255, 0, 0);
+    color: white;
+    border-radius: .5rem;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+
+    transition: .5s;
+}
+
+#youtube_link_buttona:hover{
+    box-shadow: 0 0 .4rem red;
+    text-shadow: 0 0 .2rem white;
+}
+
+#youtube_link_buttona a{
+    color: white;
+}
+/*social_media_BOX (END)*/
+
+
+/*footer (START)*/
+
+#footer_container{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    width:100%;
+    height:5rem;
+    background: #424242;
+    bottom: -100rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div{
+    color: white;
+    font-size: 1.3rem;
+    
+}
+
+footer div::selection{
+    background: rgb(56, 56, 56);
+    color: white;
+    box-shadow:  0 0 .2rem gray;
+    text-shadow: 0 0 .2rem white;
+}
+/*footer (END)*/
+
+#hata{
+    display: none;
+    color: lightgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:220px) {
+    #container{
+        display: none;
+    }
+    body{
+        background: black;
+        color: green;     
+    }
+
+    #hata{
+        display: block;
+    }
+}
+
+
+@media screen and (min-width:992px) {
+    #social_media_BOX{
+        width:50%;
+    }
+
+    #icons{
+        font-size: 3rem;
+        margin-right: 3rem;
+    }
+
+    #fatih_krc_text{
+        margin-left: 3rem;
+    }
+
+}
+    </style>
+
+
+</head>
+<body>
+    <div id="hata">Malesef :( cihazınız sitemiz için uyumlu değildir.</div>
+    <div id="container">
+        <div id="header_AND_intro_BOX">
+            <div id="header">
+                <div id="fatih_krc_text">FATİH KORUCU</div>
+                <div id="icons">
+                    <a class="youtube_icon" href="https://www.youtube.com/channel/UCnPFOVcerZ_fcCkHCniADAA/featured"><i class="fa-brands fa-youtube"></i></a>
+                    <a class="instagram_icon" href="https://instagram.com/the_fatih_krc_42?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div id="intro">
+                <img src="ucuz fiayata web sitesi yapilir.svg" alt="" >
+            </div>
+        </div>
+
+        <div id="sosyal_medya_BOX_CONTAİNER">
+            <div id="social_media_BOX">
+                <div id="youtube_BOX">
+                    <i id="youtube_icon2" class="fa-brands fa-youtube"></i>
+                    <div id="youtube_username">Ecdadımızın Yolundan</div>
+                    <div id="yt_button_container">
+                        <div id="youtube_link_buttona"><a href="https://www.youtube.com/channel/UCnPFOVcerZ_fcCkHCniADAA/featured">Abone Ol</a></div>
+                    </div>
+                </div>
+                <div id="instagram_BOX">
+                    <i id="instagram_icon2" class="fa-brands fa-instagram"></i>
+                    <div id="instagram_username">@the_fatih_krc_42</div>
+                    <div id="instagram_button_container">
+                        <div id="instagram_link_buttona"><a href="https://instagram.com/the_fatih_krc_42?igshid=YmMyMTA2M2Y=">Takip Et</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer_container">
+            <footer>
+                <div id="footer_text">CopyRight Tüm hakları saklıdır © 2022</div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
+
+
